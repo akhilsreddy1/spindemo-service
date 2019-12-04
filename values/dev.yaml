@@ -12,6 +12,9 @@ image:
   pullPolicy: Always
 
 # pengbai/docker-supermario
+
+
+
 # alexwhen/docker-2048
 
 imagePullSecrets: []
