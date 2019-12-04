@@ -7,7 +7,7 @@ replicaCount: 7
 environment: development
 
 image:
-  repository: pengbai/docker-supermario
+  repository: alexwhen/docker-2048
   tag: latest 
   pullPolicy: Always
 
@@ -39,7 +39,7 @@ securityContext: {}
 service:
   type: LoadBalancer
   port: 80
-  targetPort: 8080
+  targetPort: 80
 
 # 8080
 

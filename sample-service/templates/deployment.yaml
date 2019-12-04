@@ -17,3 +17,12 @@ spec:
         name: {{ .Chart.Name }}
         ports:
         - containerPort:  {{ .Values.service.targetPort }}
+        livenessProbe:
+          httpGet:
+            path: /
+            port: {{ .Values.service.targetPort }}
+        readinessProbe:
+          httpGet:
+            path: /
+            port: {{ .Values.service.targetPort }}
+          initialDelaySeconds: 30
