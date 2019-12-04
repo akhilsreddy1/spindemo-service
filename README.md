@@ -1,2 +1,2 @@
 # spindemo-service
-Test repo 
+Deploy strategies testing - Spinnaker 
