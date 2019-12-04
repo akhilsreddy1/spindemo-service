@@ -9,7 +9,7 @@ environment: development
 image:
   repository: alexwhen/docker-2048
   tag: latest 
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 # pengbai/docker-supermario
 
